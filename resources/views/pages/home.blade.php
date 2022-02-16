@@ -4,8 +4,9 @@
     
     <div id="postcard_area">
 
-        <h1>Hello Postcards</h1>
+        <a href="{{ route('postcard.create') }}" class="btn btn-primary m-3 p-3">Create new Postcard</a>
 
+        <Postcards-component></Postcards-component>
     </div>
 
 @endsection

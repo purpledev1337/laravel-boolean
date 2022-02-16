@@ -10962,3 +10962,30 @@ a.text-dark:focus {
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  background-color: cadetblue;
+}
+
+body table,
+body th,
+body td {
+  border: 1px solid black;
+  padding: 15px;
+}
+
+body table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+body table img {
+  width: 300px;
+}
+
